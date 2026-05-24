@@ -20,7 +20,8 @@ export function Projects() {
       <SectionBadge current={2} total={6} className="absolute top-20 right-4 md:right-6 z-20" />
 
       {/* ── Desktop ── */}
-      <div className="relative z-10 w-full h-full absolute inset-0 hidden md:flex items-end pb-10 px-10 gap-6">
+      {/* <div className="relative z-10 w-full h-full absolute inset-0 hidden md:flex items-end pb-10 px-10 gap-6"> */}
+      <div className="absolute inset-0 z-10 hidden md:block">
         {/* Cards grid — top portion */}
         <div className="absolute top-20 left-10 right-10">
           <ScrollReveal delay={0.1}>

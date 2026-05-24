@@ -9,7 +9,7 @@ import { blogPosts }     from '@/data/content'
 
 // Path: /public/photos/blogs.jpg
 // Shoot: outdoor / window light / relaxed reading pose, warm tones
-const PHOTO = '/photos/blogs.jpg'
+const PHOTO = '/photos/blogs.png'
 
 export function Blogs() {
   return (
@@ -19,7 +19,9 @@ export function Blogs() {
       <SectionBadge current={4} total={6} className="absolute top-20 right-4 md:right-6 z-20" />
 
       {/* ── Desktop ── */}
-      <div className="relative z-10 w-full absolute inset-0 hidden md:block">
+      {/* <div className="relative z-10 w-full absolute inset-0 hidden md:block"> */}
+      <div className="absolute inset-0 z-10 hidden md:block">
+
         {/* Cards — top right */}
         <div className="absolute top-24 right-10" style={{ width: 'min(480px, 48vw)' }}>
           <ScrollReveal delay={0.15} direction="right">

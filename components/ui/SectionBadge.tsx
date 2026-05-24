@@ -5,9 +5,9 @@ interface SectionBadgeProps {
 }
 
 export function SectionBadge({ current, total, className = '' }: SectionBadgeProps) {
-  return (
-    <div className={`section-badge ${className}`}>
-      {current}/{total}
-    </div>
-  )
+  // return (
+  //   <div className={`section-badge ${className}`}>
+  //     {current}/{total}
+  //   </div>
+  // )
 }

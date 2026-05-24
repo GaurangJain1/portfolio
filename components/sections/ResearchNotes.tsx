@@ -9,7 +9,7 @@ import { researchNotes } from '@/data/content'
 
 // Path: /public/photos/research.jpg
 // Shoot: notebook + pen + coffee, top-down or 45° angle, natural light
-const PHOTO = '/photos/research.jpg'
+const PHOTO = '/photos/research.png'
 
 export function ResearchNotes() {
   return (
@@ -19,7 +19,7 @@ export function ResearchNotes() {
       <SectionBadge current={3} total={6} className="absolute top-20 right-4 md:right-6 z-20" />
 
       {/* ── Desktop ── */}
-      <div className="relative z-10 w-full absolute inset-0 hidden md:block">
+      <div className="absolute inset-0 z-10 hidden md:block">
         {/* Single wide card — top left */}
         <div className="absolute top-24 left-10" style={{ width: 'min(520px, 52vw)' }}>
           <ScrollReveal delay={0.1} direction="left">

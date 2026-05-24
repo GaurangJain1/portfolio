@@ -171,7 +171,7 @@ export function Contact() {
       <SectionBadge current={6} total={6} className="absolute top-20 right-4 md:right-6 z-20" />
 
       {/* ── Desktop ── */}
-      <div className="relative z-10 w-full absolute inset-0 hidden md:block">
+      <div className="absolute inset-0 z-10 hidden md:block">
         {/* Contact card — center */}
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"

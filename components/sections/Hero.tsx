@@ -40,7 +40,7 @@ export function Hero() {
               </div>
               <div>
                 <p className="font-sans font-medium text-sm text-neutral-900 leading-tight">
-                  Your Name
+                  Gaurang Jain
                 </p>
                 <p className="font-mono text-xs text-neutral-500 mt-0.5">
                   @yourusername
@@ -68,11 +68,11 @@ export function Hero() {
               Hello, I&apos;m
             </p>
             <h1 className="pixel-heading text-3xl xl:text-4xl mb-4 leading-snug">
-              <TypeWriter text="Your Name." speed={80} delay={600} />
+              <TypeWriter text="Gaurang Jain." speed={80} delay={600} />
             </h1>
             <p className="font-mono text-white/75 text-sm max-w-md leading-relaxed">
               <TypeWriter
-                text="Frontend dev · backend tinkerer · occasional ML experiment."
+                text="Applied AI/ML Engineer · backend tinkerer    ."
                 speed={30}
                 delay={1800}
                 showCursor={false}
@@ -93,7 +93,7 @@ export function Hero() {
             Hello, I&apos;m
           </p>
           <h1 className="pixel-heading text-xl mb-4 leading-snug">
-            Your Name.
+            Gaurang Jain.
           </h1>
           <p className="font-mono text-white/70 text-xs leading-relaxed mb-5">
             Frontend dev · backend tinkerer · occasional ML experiment.
@@ -105,7 +105,7 @@ export function Hero() {
                 YN
               </div>
               <div>
-                <p className="font-sans font-medium text-sm text-neutral-900">Your Name</p>
+                <p className="font-sans font-medium text-sm text-neutral-900">Gaurang Jain</p>
                 <p className="font-mono text-[11px] text-neutral-500">@yourusername</p>
               </div>
             </div>
